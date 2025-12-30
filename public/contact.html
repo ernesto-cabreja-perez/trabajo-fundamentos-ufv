@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto | Sitio web personal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Sitio web personal</h1>
+        <p>Fundamentos de la Ingeniería Informática</p>
+    </header>
+
+    <!-- NAV -->
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="about.html">Acerca de mí</a></li>
+            <li><a href="degree.html">Grado</a></li>
+            <li><a href="topic.html">Tema</a></li>
+            <li><a href="net.html">Red</a></li>
+            <li><a href="contact.html" class="active">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN -->
+    <main>
+        <section>
+            <h2>Contacto</h2>
+            <p>Envíame un mensaje utilizando el formulario a continuación.</p>
+            
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="numero">Número de teléfono:</label>
+                <input type="tel" id="numero" name="numero" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                
+                <button type="submit" class="button">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+   
+
+</body>
+ <!-- FOOTER -->
+    <footer>
+        <p>
+            Ernesto Cabreja – Universidad Francisco de Vitoria – 2025
+        </p>
+    </footer>
+</html>
