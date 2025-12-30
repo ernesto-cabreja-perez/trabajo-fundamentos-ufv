@@ -38,7 +38,6 @@ header {
 /* ===== NAV ===== */
 nav {
     background-color: var(--white);
-    border-bottom: 2px solid var(--primary);
 }
 
 nav ul {
@@ -65,10 +64,15 @@ nav a:hover {
     color: var(--white);
 }
 
+nav a.active {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
 /* ===== MAIN ===== */
 main {
     max-width: 900px;
-    margin: 2rem auto;
+    margin: 1rem auto;
     padding: 2rem;
     background-color: var(--white);
     border-radius: 8px;
