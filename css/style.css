@@ -127,6 +127,48 @@ textarea {
     resize: vertical;
 }
 
+/* ===== DEFINITION LIST ===== */
+dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.5rem 1rem;
+    max-width: 600px;
+}
+
+dt {
+    font-weight: bold;
+    color: var(--primary);
+}
+
+dd {
+    margin: 0;
+}
+
+/* ===== TIMELINE ===== */
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.console {
+    border: 1px solid var(--primary);
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.console img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
+
+.console h3 {
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
 /* ===== FOOTER ===== */
 footer {
     margin-top: auto;
