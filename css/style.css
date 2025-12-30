@@ -9,7 +9,7 @@
 :root {
     --primary: #003865;      /* Azul serio */
     --secondary: #e6eef5;    /* Azul claro fondo */
-    --accent: #c03656;       /* Detalle elegante */
+    --accent: #003865;       /* Detalle elegante */
     --text: #222;
     --white: #ffffff;
 }
@@ -102,6 +102,29 @@ section p {
 
 .button:hover {
     opacity: 0.9;
+}
+
+/* ===== FORM ===== */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+label {
+    font-weight: bold;
+    color: var(--text);
+}
+
+input, textarea {
+    padding: 0.5rem;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
 }
 
 /* ===== FOOTER ===== */
