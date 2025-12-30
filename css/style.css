@@ -20,7 +20,12 @@ body {
     color: var(--text);
     background-color: var(--secondary);
     line-height: 1.6;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
 
 /* ===== HEADER ===== */
 header {
