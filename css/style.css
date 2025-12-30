@@ -102,7 +102,7 @@ section p {
 
 /* ===== FOOTER ===== */
 footer {
-    margin-top: 2rem;
+    margin-top: auto;
     padding: 1rem;
     text-align: center;
     font-size: 0.9rem;
